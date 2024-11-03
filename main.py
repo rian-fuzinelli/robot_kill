@@ -152,8 +152,7 @@ while running:
         keys = pygame.key.get_pressed()
         if keys[pygame.K_a] and bullets_left > 0:
 
-            # Permite disparar até duas balas
-            if len(bullets) < 2:  # Verifica se há menos de duas balas em jogo
+            if len(bullets) < 2: 
                 bullets.append(bullet.get_rect(topleft=(player_x + 30, player_y + 50)))
                 bullets_left -= 1
 
