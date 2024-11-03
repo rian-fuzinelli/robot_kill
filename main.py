@@ -117,7 +117,7 @@ while running:
         if bullets:
             for (i,el) in enumerate(bullets):
                 screen.blit(bullet, (el.x, el.y))
-                el.x += 10
+                el.x += 18
 
                 if el.x > 1280:
                     bullets.pop(i)
