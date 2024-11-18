@@ -1,6 +1,6 @@
 ## 🕹️ Este projeto é um jogo realizado em Python através de sua própria IDE (PyCharm) e biblioteca (PyGame) com o objetivo de obter notórios conhecimentos da linguagem.
 
-Technologies:
+Tecnologias:
 - PyCharm
 - Python
 - PyGame
